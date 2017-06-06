@@ -7,7 +7,9 @@
 
 4-a Creer un projet jobdealtestfullcalendar dans le workspace de votre Node.js avec la commande : meteor create jobdealtestfullcalendar 
 
-4-b Ecraser les fichiers du dossier jobdealtestfullcalendar en provenance de la repository GIT vers le dossier jobdealtestfullcalendar que vous venez de creer se trouvant donc dans le workspace de votre node.js) /!\ ATTENTION : Prenez le soin de déselectionner au préalable les 3 dossiers node_modules, .meteor et .git
+4-b Supprimer du projet nouvellement créer, les dossiers : client et server
+
+4-c Ecraser les fichiers du dossier jobdealtestfullcalendar en provenance de la repository GIT vers le dossier jobdealtestfullcalendar que vous venez de creer se trouvant donc dans le workspace de votre node.js) /!\ ATTENTION : Prenez le soin de déselectionner au préalable les 3 dossiers node_modules, .meteor et .git
 
 5-Installer les paquets suivants  :
 meteor npm install --save react react-dom
