@@ -5,7 +5,9 @@
 
 3-Telecharger le projet GIT a l adresse : https://github.com/amorel59000/jobdealtestfullcalendar.git
 
-4-Copier le dossier jobdealtestfullcalendar du dossier git dans le dossier workspace de votre node.js
+4-a Creer un projet jobdealtestfullcalendar dans le workspace de votre Node.js avec la commande : meteor create jobdealtestfullcalendar 
+
+4-b Ecraser les fichiers du dossier jobdealtestfullcalendar en provenance de la repository GIT vers le dossier jobdealtestfullcalendar que vous venez de creer se trouvant donc dans le workspace de votre node.js) /!\ ATTENTION : Prenez le soin de déselectionner au préalable les 3 dossiers node_modules, .meteor et .git
 
 5-Installer les paquets suivants  :
 meteor npm install --save react react-dom
@@ -18,4 +20,10 @@ meteor add momentjs:moment
 
 6-Lancer le projet via la commande : meteor
 
-7-Tester l'application avec un navigateur : http://localhost:3000/
+7-Tester l'application avec Chrome ou Firefox : http://localhost:3000/
+--> Pour ajouter un evenement : cliquez sur une date du calendrier, puis saisissez un libellé dans le champs en haut de page, et appuyer sur la touche entrée du clavier
+--> Pour supprimer un evenement, cliquez sur l'evenement pour le selectionner puis cliquez sur le bouton "Supprimer l'evenement sélectionné" qui apparaitra en haut de page
+--> Pour modifier un evenement, cliquez sur l'evenement pour le selectionner puis :
+	-modifier son libellé dans le champs texte en haut de page
+	-sélectionner une nouvelle date sur le calendrier
+	-recliquer sur le champs texte pour avoir le focus dessus et appuyer sur la touche entrée du clavier
